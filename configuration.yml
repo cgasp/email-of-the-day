@@ -1,0 +1,8 @@
+# configuration template 
+email:
+  sender_email: {{ username_mail }}
+  sender_from: 
+  receiver_email: {{ target_email }}
+  password: {{ password }}
+  mail_server_address: {{ server_address }}
+  mail_server_port: {{ server_port }}

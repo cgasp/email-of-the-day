@@ -73,7 +73,7 @@ def main():
 
     args = arg_parse()
 
-    config = yaml.load(open(os.path.expanduser(args.config)))
+    config = yaml.safe_load(open(os.path.expanduser(args.config)))
     # print(config)
 
     Ymd = datetime.datetime.now().strftime('%Y%m%d')
